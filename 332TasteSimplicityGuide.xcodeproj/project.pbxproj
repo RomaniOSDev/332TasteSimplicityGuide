@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B986C876E3EC44800452396 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E8A973F5AC92DEE5E654733D /* PrivacyInfo.xcprivacy */; };
+		180FA2401AE5A0FC6C5BBEA4 /* DishTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA62FAD44EB31931D451E62E /* DishTimer.swift */; };
+		1C6247A3929D0FF0B71BEFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F221AF0E49C59EB3467F90 /* Main.storyboard */; };
+		283509CD355E44222BC79EFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71BE4F3B57936BFEDBD9B0 /* SceneDelegate.swift */; };
+		28A216031EDC87B103287151 /* PantryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857635E968437E56B9FAE7D /* PantryEditorView.swift */; };
+		2E9D4B18C7A14F6B90D3E5A1 /* KitchenStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A1C92B4D047E1A6C25B70 /* KitchenStatsView.swift */; };
+		35092B41B3E421BD0ABCE10C /* GroceryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9668A7FCB796E542AB6CA /* GroceryEditorView.swift */; };
+		3545B6FF8AD41D55DC5D5105 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F310BB64213E5D5651CEA /* AppStore.swift */; };
+		484D881E710B3AB0E2173125 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6CECD8CC5F3D8FBE3B3E2 /* Theme.swift */; };
+		486AC21B7BDC638041F24C33 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0E4931B418704D51FA4AC /* RecipeListView.swift */; };
+		4D8E0FCFA47D6ED078BE42E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B085A2751A86A0C39FED061C /* LaunchScreen.storyboard */; };
+		4F2A9BF051470F301E9B76E5 /* CookHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52048E96569C885C120AC44 /* CookHistoryView.swift */; };
+		5111723B458509DDFF9D589B /* GroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0A5335030FE3091B848EB /* GroceryListView.swift */; };
+		552ACCA373B83D47D7855EEB /* CookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04318772080D4F431325E8BE /* CookRecord.swift */; };
+		6529E9F8951C15FBADE64FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240F63E68F2E7F60EAF769A /* AppDelegate.swift */; };
+		69B2AC6AE655DB66202154E5 /* KitchenHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405D558E6EA1ADAA325DBB6 /* KitchenHomeView.swift */; };
+		6DCF0E18C8DD4D153C004CDA /* TimerEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547795D9B05D673F19B8D7AA /* TimerEditorView.swift */; };
+		77593201FDD40F7C40B6B030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ABBBA3718C0BB762BCA03D /* ContentView.swift */; };
+		7DE287ABA7CDCDB06FF17FF9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53578D541B5B202DA37E8EF /* SettingsView.swift */; };
+		8206BAD6588F53ACFADF3014 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BF07D0CED16BA56482BBD /* RecipeDetailView.swift */; };
+		9A1B2C3D4E5F60718293A4B6 /* CookModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B2C3D4E5F60718293A4B5 /* CookModeView.swift */; };
+		9A1B2C3D4E5F60718293A4C2 /* WeekPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B2C3D4E5F60718293A4C1 /* WeekPlanView.swift */; };
+		A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAA59D477A91E75E0468AF /* Assets.xcassets */; };
+		A7F691EEB97E62AB2AD20618 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE271C45342E6E5DE53D69 /* Haptics.swift */; };
+		AB2F9D3BFFC616EE6B50FEE9 /* TimerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07FBBCEE45C9C241015E2E /* TimerListView.swift */; };
+		BDD942AF711F42102AC86EA8 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E670752FB6E7C96AD5577E86 /* GroceryItem.swift */; };
+		BE6CA8F95C79B505DBE70797 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03452EE35AEFBF0DF3326B0D /* Recipe.swift */; };
+		C149DF1170A63F5BDDDDC535 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCC951328DE7B322295A3C /* AppLinks.swift */; };
+		C458AC34263AB5AA15C5ECC8 /* PantryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553586FAFA0B2220F20890D4 /* PantryItem.swift */; };
+		D37DC80188B4E8EDC2FF5320 /* PlannedMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3B653E856F246AEDE312A /* PlannedMeal.swift */; };
+		DBF778895E6E873562C898B3 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2070758490A8F3DB1ADDA1 /* Palette.swift */; };
+		E363226B304C2F87551B95F9 /* PantryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43CA4935C0205F87DAAAD6 /* PantryListView.swift */; };
+		E943C75CF0F673076E751EFE /* ScreenBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5B2C7D31B0C01848E0743 /* ScreenBackdrop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0240F63E68F2E7F60EAF769A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03452EE35AEFBF0DF3326B0D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		03D0E4931B418704D51FA4AC /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		04318772080D4F431325E8BE /* CookRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookRecord.swift; sourceTree = "<group>"; };
+		1E2070758490A8F3DB1ADDA1 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		26E6CECD8CC5F3D8FBE3B3E2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		381BF07D0CED16BA56482BBD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		423F310BB64213E5D5651CEA /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		4857635E968437E56B9FAE7D /* PantryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryEditorView.swift; sourceTree = "<group>"; };
+		51E3B653E856F246AEDE312A /* PlannedMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedMeal.swift; sourceTree = "<group>"; };
+		547795D9B05D673F19B8D7AA /* TimerEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEditorView.swift; sourceTree = "<group>"; };
+		553586FAFA0B2220F20890D4 /* PantryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItem.swift; sourceTree = "<group>"; };
+		59DAA59D477A91E75E0468AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F221AF0E49C59EB3467F90 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6405D558E6EA1ADAA325DBB6 /* KitchenHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenHomeView.swift; sourceTree = "<group>"; };
+		662C7B8B043A5ECA50C96650 /* Pods-332TasteSimplicityGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-332TasteSimplicityGuide.release.xcconfig"; path = "Target Support Files/Pods-332TasteSimplicityGuide/Pods-332TasteSimplicityGuide.release.xcconfig"; sourceTree = "<group>"; };
+		68ABBBA3718C0BB762BCA03D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69BCC951328DE7B322295A3C /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		770C5B730A8FBE3C009C5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798F0E0A53ECBB601B17D4A4 /* 332TasteSimplicityGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 332TasteSimplicityGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B07FBBCEE45C9C241015E2E /* TimerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerListView.swift; sourceTree = "<group>"; };
+		88A2B444676B7DA585CE0AFE /* Pods_332TasteSimplicityGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_332TasteSimplicityGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD0A5335030FE3091B848EB /* GroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListView.swift; sourceTree = "<group>"; };
+		8D43CA4935C0205F87DAAAD6 /* PantryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryListView.swift; sourceTree = "<group>"; };
+		8EA9668A7FCB796E542AB6CA /* GroceryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryEditorView.swift; sourceTree = "<group>"; };
+		8F3A1C92B4D047E1A6C25B70 /* KitchenStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenStatsView.swift; sourceTree = "<group>"; };
+		9A1B2C3D4E5F60718293A4B5 /* CookModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookModeView.swift; sourceTree = "<group>"; };
+		9A1B2C3D4E5F60718293A4C1 /* WeekPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlanView.swift; sourceTree = "<group>"; };
+		B085A2751A86A0C39FED061C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B52048E96569C885C120AC44 /* CookHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookHistoryView.swift; sourceTree = "<group>"; };
+		B5B5B2C7D31B0C01848E0743 /* ScreenBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBackdrop.swift; sourceTree = "<group>"; };
+		C53578D541B5B202DA37E8EF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CCC898DDEA7BE6DD6F78F619 /* Pods-332TasteSimplicityGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-332TasteSimplicityGuide.debug.xcconfig"; path = "Target Support Files/Pods-332TasteSimplicityGuide/Pods-332TasteSimplicityGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		D2BE271C45342E6E5DE53D69 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		DA62FAD44EB31931D451E62E /* DishTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishTimer.swift; sourceTree = "<group>"; };
+		DE71BE4F3B57936BFEDBD9B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E670752FB6E7C96AD5577E86 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		E8A973F5AC92DEE5E654733D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF276D5B5B6B8DD12ECCFD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F9F6306B345DE7DBD4F5BE /* 332TasteSimplicityGuide */ = {
+			isa = PBXGroup;
+			children = (
+				D1D0524B025E57AFFF263442 /* App */,
+				59DAA59D477A91E75E0468AF /* Assets.xcassets */,
+				26C0328CEFBAC83F70824617 /* Base.lproj */,
+				984D844B917CCD4C29DE2A97 /* Features */,
+				37E693DA90D98BF92B6CF464 /* Helpers */,
+				770C5B730A8FBE3C009C5372 /* Info.plist */,
+				A1C86A29E589D48EC70B6A32 /* Models */,
+				60007F2925DEA5C892005D77 /* Persistence */,
+				E8A973F5AC92DEE5E654733D /* PrivacyInfo.xcprivacy */,
+				30E55226AA05E8C3B80D9DCF /* Theme */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+			);
+			path = 332TasteSimplicityGuide;
+			sourceTree = "<group>";
+		};
+		0D7626413CCF860C82715CA5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C53578D541B5B202DA37E8EF /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		21C291366D5AFB09E7528B01 /* Grocery */ = {
+			isa = PBXGroup;
+			children = (
+				8EA9668A7FCB796E542AB6CA /* GroceryEditorView.swift */,
+				8CD0A5335030FE3091B848EB /* GroceryListView.swift */,
+			);
+			path = Grocery;
+			sourceTree = "<group>";
+		};
+		26C0328CEFBAC83F70824617 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B085A2751A86A0C39FED061C /* LaunchScreen.storyboard */,
+				59F221AF0E49C59EB3467F90 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		287C21B64DAEAFF36CC1B166 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC898DDEA7BE6DD6F78F619 /* Pods-332TasteSimplicityGuide.debug.xcconfig */,
+				662C7B8B043A5ECA50C96650 /* Pods-332TasteSimplicityGuide.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2998684C7FE72461CCEEEE9A /* Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				4857635E968437E56B9FAE7D /* PantryEditorView.swift */,
+				8D43CA4935C0205F87DAAAD6 /* PantryListView.swift */,
+			);
+			path = Pantry;
+			sourceTree = "<group>";
+		};
+		2C6B23BCC3481F95570A5D96 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B52048E96569C885C120AC44 /* CookHistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		30E55226AA05E8C3B80D9DCF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1E2070758490A8F3DB1ADDA1 /* Palette.swift */,
+				26E6CECD8CC5F3D8FBE3B3E2 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		37E693DA90D98BF92B6CF464 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69BCC951328DE7B322295A3C /* AppLinks.swift */,
+				D2BE271C45342E6E5DE53D69 /* Haptics.swift */,
+				B5B5B2C7D31B0C01848E0743 /* ScreenBackdrop.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		38DF21AEF4612506D6BE5CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68ABBBA3718C0BB762BCA03D /* ContentView.swift */,
+				0D7626413CCF860C82715CA5 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4850938AA02113F60C85A823 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				381BF07D0CED16BA56482BBD /* RecipeDetailView.swift */,
+				03D0E4931B418704D51FA4AC /* RecipeListView.swift */,
+				9A1B2C3D4E5F60718293A4B5 /* CookModeView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		52A12321F87FE4F8991A2C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798F0E0A53ECBB601B17D4A4 /* 332TasteSimplicityGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9D752F722BA6E79998D90B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A2B444676B7DA585CE0AFE /* Pods_332TasteSimplicityGuide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C8E2A71F0B34D9A86E147C2 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A1C92B4D047E1A6C25B70 /* KitchenStatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		60007F2925DEA5C892005D77 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				423F310BB64213E5D5651CEA /* AppStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		984D844B917CCD4C29DE2A97 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				21C291366D5AFB09E7528B01 /* Grocery */,
+				2C6B23BCC3481F95570A5D96 /* History */,
+				E36A4348B695D70080C2F05B /* Kitchen */,
+				2998684C7FE72461CCEEEE9A /* Pantry */,
+				4850938AA02113F60C85A823 /* Recipes */,
+				5C8E2A71F0B34D9A86E147C2 /* Stats */,
+				A7BEA25B337CA80D49439076 /* Timers */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A1C86A29E589D48EC70B6A32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04318772080D4F431325E8BE /* CookRecord.swift */,
+				DA62FAD44EB31931D451E62E /* DishTimer.swift */,
+				E670752FB6E7C96AD5577E86 /* GroceryItem.swift */,
+				553586FAFA0B2220F20890D4 /* PantryItem.swift */,
+				51E3B653E856F246AEDE312A /* PlannedMeal.swift */,
+				03452EE35AEFBF0DF3326B0D /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7BEA25B337CA80D49439076 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				547795D9B05D673F19B8D7AA /* TimerEditorView.swift */,
+				7B07FBBCEE45C9C241015E2E /* TimerListView.swift */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		D1D0524B025E57AFFF263442 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0240F63E68F2E7F60EAF769A /* AppDelegate.swift */,
+				DE71BE4F3B57936BFEDBD9B0 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D48D046D1FC10C3CD945CA77 = {
+			isa = PBXGroup;
+			children = (
+				07F9F6306B345DE7DBD4F5BE /* 332TasteSimplicityGuide */,
+				52A12321F87FE4F8991A2C03 /* Products */,
+				287C21B64DAEAFF36CC1B166 /* Pods */,
+				5A9D752F722BA6E79998D90B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E36A4348B695D70080C2F05B /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				6405D558E6EA1ADAA325DBB6 /* KitchenHomeView.swift */,
+				9A1B2C3D4E5F60718293A4C1 /* WeekPlanView.swift */,
+			);
+			path = Kitchen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A72A9F71F16C02736A376B8 /* 332TasteSimplicityGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CA5DEF5FD7BC778D27C027 /* Build configuration list for PBXNativeTarget "332TasteSimplicityGuide" */;
+			buildPhases = (
+				FF726F0810F3855017121769 /* [CP] Check Pods Manifest.lock */,
+				D76694821B93DCC5418FBBC5 /* Sources */,
+				EF276D5B5B6B8DD12ECCFD42 /* Frameworks */,
+				4B4DEA8EECA115B8E88CCCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 332TasteSimplicityGuide;
+			productName = 332TasteSimplicityGuide;
+			productReference = 798F0E0A53ECBB601B17D4A4 /* 332TasteSimplicityGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2E28E414EE1C28F9B76002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7A72A9F71F16C02736A376B8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C3292DEA2239F1FB43E73D39 /* Build configuration list for PBXProject "332TasteSimplicityGuide" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48D046D1FC10C3CD945CA77;
+			productRefGroup = 52A12321F87FE4F8991A2C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A72A9F71F16C02736A376B8 /* 332TasteSimplicityGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4DEA8EECA115B8E88CCCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E0FCFA47D6ED078BE42E7 /* LaunchScreen.storyboard in Resources */,
+				1C6247A3929D0FF0B71BEFB5 /* Main.storyboard in Resources */,
+				0B986C876E3EC44800452396 /* PrivacyInfo.xcprivacy in Resources */,
+				A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF726F0810F3855017121769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-332TasteSimplicityGuide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76694821B93DCC5418FBBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6529E9F8951C15FBADE64FA3 /* AppDelegate.swift in Sources */,
+				283509CD355E44222BC79EFD /* SceneDelegate.swift in Sources */,
+				35092B41B3E421BD0ABCE10C /* GroceryEditorView.swift in Sources */,
+				5111723B458509DDFF9D589B /* GroceryListView.swift in Sources */,
+				4F2A9BF051470F301E9B76E5 /* CookHistoryView.swift in Sources */,
+				69B2AC6AE655DB66202154E5 /* KitchenHomeView.swift in Sources */,
+				28A216031EDC87B103287151 /* PantryEditorView.swift in Sources */,
+				E363226B304C2F87551B95F9 /* PantryListView.swift in Sources */,
+				8206BAD6588F53ACFADF3014 /* RecipeDetailView.swift in Sources */,
+				486AC21B7BDC638041F24C33 /* RecipeListView.swift in Sources */,
+				6DCF0E18C8DD4D153C004CDA /* TimerEditorView.swift in Sources */,
+				AB2F9D3BFFC616EE6B50FEE9 /* TimerListView.swift in Sources */,
+				C149DF1170A63F5BDDDDC535 /* AppLinks.swift in Sources */,
+				A7F691EEB97E62AB2AD20618 /* Haptics.swift in Sources */,
+				E943C75CF0F673076E751EFE /* ScreenBackdrop.swift in Sources */,
+				552ACCA373B83D47D7855EEB /* CookRecord.swift in Sources */,
+				180FA2401AE5A0FC6C5BBEA4 /* DishTimer.swift in Sources */,
+				BDD942AF711F42102AC86EA8 /* GroceryItem.swift in Sources */,
+				C458AC34263AB5AA15C5ECC8 /* PantryItem.swift in Sources */,
+				D37DC80188B4E8EDC2FF5320 /* PlannedMeal.swift in Sources */,
+				BE6CA8F95C79B505DBE70797 /* Recipe.swift in Sources */,
+				3545B6FF8AD41D55DC5D5105 /* AppStore.swift in Sources */,
+				DBF778895E6E873562C898B3 /* Palette.swift in Sources */,
+				484D881E710B3AB0E2173125 /* Theme.swift in Sources */,
+				77593201FDD40F7C40B6B030 /* ContentView.swift in Sources */,
+				7DE287ABA7CDCDB06FF17FF9 /* SettingsView.swift in Sources */,
+				2E9D4B18C7A14F6B90D3E5A1 /* KitchenStatsView.swift in Sources */,
+				9A1B2C3D4E5F60718293A4B6 /* CookModeView.swift in Sources */,
+				9A1B2C3D4E5F60718293A4C2 /* WeekPlanView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27465245CADB4EB01E537BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC898DDEA7BE6DD6F78F619 /* Pods-332TasteSimplicityGuide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AppAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 332TasteSimplicityGuide/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TasteSimplicity Guide";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jan.t8st3s9mpl9c4tyg89d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2C6C38CC2AA1FF01EDBD6225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637432AAF764849315B23BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1CB42CFCB41293676FD396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662C7B8B043A5ECA50C96650 /* Pods-332TasteSimplicityGuide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AppAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 332TasteSimplicityGuide/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TasteSimplicity Guide";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jan.t8st3s9mpl9c4tyg89d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CA5DEF5FD7BC778D27C027 /* Build configuration list for PBXNativeTarget "332TasteSimplicityGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27465245CADB4EB01E537BC5 /* Debug */,
+				DC1CB42CFCB41293676FD396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3292DEA2239F1FB43E73D39 /* Build configuration list for PBXProject "332TasteSimplicityGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637432AAF764849315B23BB0 /* Debug */,
+				2C6C38CC2AA1FF01EDBD6225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D2E28E414EE1C28F9B76002 /* Project object */;
+}
