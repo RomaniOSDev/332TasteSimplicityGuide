@@ -40,6 +40,17 @@
 		DBF778895E6E873562C898B3 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2070758490A8F3DB1ADDA1 /* Palette.swift */; };
 		E363226B304C2F87551B95F9 /* PantryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43CA4935C0205F87DAAAD6 /* PantryListView.swift */; };
 		E943C75CF0F673076E751EFE /* ScreenBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5B2C7D31B0C01848E0743 /* ScreenBackdrop.swift */; };
+		F10100020000000000000001 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000001 /* CalendarGateEvaluator.swift */; };
+		F10100020000000000000002 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000002 /* DeferredLaunchCanvas.swift */; };
+		F10100020000000000000003 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000003 /* LaunchDestination.swift */; };
+		F10100020000000000000004 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000004 /* LaunchFlowResolver.swift */; };
+		F10100020000000000000005 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000005 /* LaunchFlowSecrets.swift */; };
+		F10100020000000000000006 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000006 /* LaunchSessionStore.swift */; };
+		F10100020000000000000007 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000007 /* LaunchStagingState.swift */; };
+		F10100020000000000000008 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000008 /* RemoteEntryProbe.swift */; };
+		F10100020000000000000009 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10100010000000000000009 /* RemoteEntryURLComposer.swift */; };
+		F1010002000000000000000A /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010001000000000000000A /* RootWindowPresenter.swift */; };
+		F1010002000000000000000B /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010001000000000000000B /* WebDocumentSurfaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +92,17 @@
 		DE71BE4F3B57936BFEDBD9B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E670752FB6E7C96AD5577E86 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		E8A973F5AC92DEE5E654733D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F10100010000000000000001 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		F10100010000000000000002 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		F10100010000000000000003 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		F10100010000000000000004 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		F10100010000000000000005 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		F10100010000000000000006 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		F10100010000000000000007 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		F10100010000000000000008 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		F10100010000000000000009 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		F1010001000000000000000A /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		F1010001000000000000000B /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				0240F63E68F2E7F60EAF769A /* AppDelegate.swift */,
+				F10100030000000000000001 /* LaunchFlow */,
 				DE71BE4F3B57936BFEDBD9B0 /* SceneDelegate.swift */,
 			);
 			path = App;
@@ -296,6 +319,24 @@
 				9A1B2C3D4E5F60718293A4C1 /* WeekPlanView.swift */,
 			);
 			path = Kitchen;
+			sourceTree = "<group>";
+		};
+		F10100030000000000000001 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F10100010000000000000001 /* CalendarGateEvaluator.swift */,
+				F10100010000000000000002 /* DeferredLaunchCanvas.swift */,
+				F10100010000000000000003 /* LaunchDestination.swift */,
+				F10100010000000000000004 /* LaunchFlowResolver.swift */,
+				F10100010000000000000005 /* LaunchFlowSecrets.swift */,
+				F10100010000000000000006 /* LaunchSessionStore.swift */,
+				F10100010000000000000007 /* LaunchStagingState.swift */,
+				F10100010000000000000008 /* RemoteEntryProbe.swift */,
+				F10100010000000000000009 /* RemoteEntryURLComposer.swift */,
+				F1010001000000000000000A /* RootWindowPresenter.swift */,
+				F1010001000000000000000B /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +466,17 @@
 				2E9D4B18C7A14F6B90D3E5A1 /* KitchenStatsView.swift in Sources */,
 				9A1B2C3D4E5F60718293A4B6 /* CookModeView.swift in Sources */,
 				9A1B2C3D4E5F60718293A4C2 /* WeekPlanView.swift in Sources */,
+				F10100020000000000000001 /* CalendarGateEvaluator.swift in Sources */,
+				F10100020000000000000002 /* DeferredLaunchCanvas.swift in Sources */,
+				F10100020000000000000003 /* LaunchDestination.swift in Sources */,
+				F10100020000000000000004 /* LaunchFlowResolver.swift in Sources */,
+				F10100020000000000000005 /* LaunchFlowSecrets.swift in Sources */,
+				F10100020000000000000006 /* LaunchSessionStore.swift in Sources */,
+				F10100020000000000000007 /* LaunchStagingState.swift in Sources */,
+				F10100020000000000000008 /* RemoteEntryProbe.swift in Sources */,
+				F10100020000000000000009 /* RemoteEntryURLComposer.swift in Sources */,
+				F1010002000000000000000A /* RootWindowPresenter.swift in Sources */,
+				F1010002000000000000000B /* WebDocumentSurfaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +503,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jan.t8st3s9mpl9c4tyg89d1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -594,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jan.t8st3s9mpl9c4tyg89d1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
